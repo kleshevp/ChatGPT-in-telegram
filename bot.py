@@ -1,8 +1,8 @@
 import telebot
 import openai
 
-bot = telebot.TeleBot('6040861692:AAHinu_RidoDgidgNIkOeo-Fp8fA7D_0xNU')
-openai.api_key = "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"
+bot = telebot.TeleBot('telegram token')
+openai.api_key = "openai token"
 messages = {}  # Словарь для сохранения сообщений по user_id
 users = [..., ..., ..., ...] #Пользователи с доступом
 
